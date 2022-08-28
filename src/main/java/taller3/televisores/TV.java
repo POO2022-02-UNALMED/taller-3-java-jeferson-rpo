@@ -52,7 +52,11 @@ public class TV {
 	}
 	
 	public void setCanal (int canal	 ) {
-		this.canal = canal;
+		if (estado==true && canal< 121) {
+			this.canal = canal;	
+		}
+		
+		
 	}
 	public static void setNumTV (int num	 ) {
 		numTV = num;
