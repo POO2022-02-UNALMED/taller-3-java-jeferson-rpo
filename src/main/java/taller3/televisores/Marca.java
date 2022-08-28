@@ -5,7 +5,7 @@ public class Marca {
 	
 	
 	
-	public void main(String nombre) {
+	public  void marca(String nombre) {
 		this.nombre = nombre;
 	}
 	
