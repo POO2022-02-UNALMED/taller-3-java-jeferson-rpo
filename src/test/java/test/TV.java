@@ -19,7 +19,7 @@ public class TV {
 		numTV++;
 								
 	}
-	public String getmarca (String marca) {
+	public Marca getMarca () {
 		return marca;
 	}
 	
@@ -33,21 +33,21 @@ public class TV {
 	public void setControl (Control control) {
 		this.control = control;
 	}
-	public int getPrecio (int precio) {
+	public int getPrecio () {
 		return precio;
 	}
 	
 	public void setPrecio (int precio ) {
 		this.precio = precio;
 	}
-	public int getVolumen (int volumen) {
+	public int getVolumen () {
 		return volumen;
 	}
 	
 	public void setVolumen (int volumen) {
 		this.volumen = volumen;
 	}
-	public int getCanal (int canal) {
+	public int getCanal () {
 		return canal;
 	}
 	
@@ -98,6 +98,8 @@ public class TV {
     	}
 	
     }
+	
+	
     
     
     
