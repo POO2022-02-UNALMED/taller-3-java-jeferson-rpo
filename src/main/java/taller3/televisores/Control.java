@@ -27,22 +27,26 @@ public class Control {
 		
 		tv.volumenDown();
 	}
-	public TV setTv() {
+	public TV getTv(TV tv) {
 		return tv;
 
 	}
 	
-	public void getTv(TV tv) {
-		this.tv = tv;
+	public void setTv(TV tele) {
+		this.tv = tele;
 
 	}
-	public int setCanal(int canal ) {
+	public void setCanal(int can) {
+		tv.setCanal(can);
+
+	}
+	public int getCanal() {
 		return tv.canal;
 
 	}
 	
 	public void enlazar(TV tele) {
-		tv = tele;
+		this.tv = tele;
 		tv.setControl(this);
 	}			
 }
