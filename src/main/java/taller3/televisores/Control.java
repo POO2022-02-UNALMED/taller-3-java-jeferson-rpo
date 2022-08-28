@@ -31,8 +31,13 @@ public class Control {
 		return tv;
 
 	}
+	
 	public void getTv(TV tv) {
 		this.tv = tv;
+
+	}
+	public int setCanal(int canal ) {
+		return tv.canal;
 
 	}
 	
