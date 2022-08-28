@@ -23,10 +23,10 @@ public class TV {
 		return marca;
 	}
 	
-	public void setmarca(Marca marca ) {
+	public void setMarca(Marca marca ) {
 		this.marca = marca;
 	}
-	public Control getcontrol (Control control) {
+	public Control getControl () {
 		return control;
 	}
 	
@@ -55,7 +55,7 @@ public class TV {
 		this.canal = canal;
 	}
 	
-	public static int getNumTV (int numTV) {
+	public static int getNumTV () {
 		return numTV;
 	}
 	public boolean getEstado() {
