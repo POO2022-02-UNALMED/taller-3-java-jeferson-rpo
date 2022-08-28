@@ -27,7 +27,7 @@ public class Control {
 		
 		tv.volumenDown();
 	}
-	public TV getTv(TV tv) {
+	public TV getTv() {
 		return tv;
 
 	}
