@@ -41,10 +41,8 @@ public class Control {
 
 	}
 	
-	public void enlazar(TV tv) {
-		this.tv = tv;
+	public void enlazar(TV tele) {
+		tv = tele;
 		tv.setControl(this);
-	}
-	
-	
+	}			
 }
